@@ -1,0 +1,49 @@
+:root {
+    --primary: rgb(154, 121, 108);
+    --secondary: #F6F1E9;  
+  }
+  html {
+    position: relative;
+    min-height: 100%;
+}
+footer {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 50px;
+    width: 100%;
+    overflow: hidden;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    font-size: 0.8rem !important;
+    margin: 0 0 100px;
+    /* bottom = footer height */
+}
+.button-soal{
+    border: 1px solid;
+    padding: 10px;
+    padding-left: 15px;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    border-radius: 8px;
+    font-weight: 500;
+}
+.button-soal.active{
+    border: 1px solid black;
+    background-color: var(--primary);
+    color: white;
+}
+.btn-primary{
+    background-color: var(--primary);
+    border-color: var(--primary);
+}
+.btn-primary:hover{
+    background-color: rgba(104, 69, 41, 0.874);
+    border-color: var(--primary);
+}
+.nav-link:hover,.nav-link.active{
+    color: rgba(104, 69, 41, 0.874) !important;
+}

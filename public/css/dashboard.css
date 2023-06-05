@@ -1,0 +1,59 @@
+:root {
+    --primary: rgb(154, 121, 108);
+    --secondary: #F6F1E9;  
+  }
+body{
+    font-family: 'Poppins', sans-serif;
+    font-size: 0.8rem !important;
+}
+.text-bg-primary{
+    background-color: rgb(202, 168, 155) !important;
+    border-color: rgb(202, 168, 155) !important;
+}
+.bg-secondary{
+    background-color: var(--secondary) !important;
+}
+input,textarea,select{
+    font-size: 0.7rem !important;
+}
+a.nav-link.active {
+    background-color: var(--primary) !important;
+}
+a.nav-link.active i{
+    color: white;
+}
+.btn{
+    font-size: 0.8rem !important;
+}
+.nav-item i{
+    color: var(--primary);
+}
+.nav-link i{
+    margin-right: 10px;
+}
+.content{
+    margin-left: 280px;
+    margin-top: 20px;
+}
+.sidebar{
+    margin-top: 3px;
+    z-index: 3;
+}
+
+.btn-primary{
+    background-color: var(--primary) !important;
+    border-color: var(--primary) !important;
+}
+
+@media only screen and (max-width: 700px) {
+    .sidebar{
+        top: 50px !important;
+        margin-left: -500px;
+    }
+    .open-navbar{
+        margin-left: 0px;
+    }
+    .content{
+        margin-left: 0px;
+    }
+  }
